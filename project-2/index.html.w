@@ -8,7 +8,6 @@
   </head>
 
   <body>
-
   <div>
              <h1>Header</h1>
              <h2>Header</h2>
@@ -16,9 +15,9 @@
              <h4>Header</h4>
              <h5>Header</h5>
              <h6>Header</h6>
+             
 
-
-             </div>
+          </div>
 
           <div>
           /<em> &nbsp; //</em>//&nbsp; /<strong>//&nbsp; /</ 
@@ -51,8 +50,7 @@
 <li>First</li>
          </ol>
 
-
-    Project 1
+    Project 2
     <script src="assets/js/app.js"></script>
 
   </body>
