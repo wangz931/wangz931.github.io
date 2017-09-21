@@ -10,16 +10,25 @@ body {
 
 }
 
+img/logo.jpg{
+	width:30%
+}
+
 .about {
  background: #000;
  color: #fff;
 }
 
+
+
 .about a {
 	 color: #fff;
 }
 
-h1, h2, h3, h4{
+
+
+]
+h1, h2{
 
 	font-size: 20px;
 	margin: 0;
