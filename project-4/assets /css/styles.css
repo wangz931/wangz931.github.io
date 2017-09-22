@@ -1,0 +1,14 @@
+
+body{
+	font-size:30px;
+
+	font-color:#pink;
+
+	padding:15px;
+}
+
+.wrapper {
+	background: #ccc;
+	width:980px;
+	margin: 0 auto 0 auto;
+}
