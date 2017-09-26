@@ -1,13 +1,12 @@
-head{ font-size: 100px;
-       font-color: white;
-      font-style=background-color: #000;
-
- }
+h1{
+	font-color: #f00;
+}
 
 
 
-
-.c4{ width:400px; }
+.c4{
+	width:400px;
+}
 
 
 .cursor{
