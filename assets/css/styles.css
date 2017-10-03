@@ -19,7 +19,7 @@ body {
 	 color: #fff;
 }
 
-h1, h2, h3, h4,h5,h6{
+h1, h2,{
 
 	font-size: 20px;
 	margin: 0;
@@ -30,7 +30,7 @@ a{
 	color: #000;             ------for font color 
 }
 
-dic{
+div{
 	margin-bottom: 40px;
 }
 
@@ -38,9 +38,9 @@ img{
 	margin-bottom: 40px;
 }
 
-yl{
+ul{
 	margin: 0;
 }
 p{
-	width:718px;
+	width:650px;
 }
