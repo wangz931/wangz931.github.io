@@ -1,0 +1,58 @@
+*{box-sizing:border-box;}
+
+.button{
+	display:inline-block;
+	padding: 10px 20px 20px 0px;
+	margin: 0px 15px 50px 28px;
+	}
+
+
+.wrapper{
+	max-width:2000px;
+	min-width:1600px;
+	margin: 0 auto;
+}
+.whitespace-fix {font-size:0;}
+
+
+
+.button-wrapper{
+
+position:relative;
+top:30%;
+left:50%;
+transform:translate(-50%,-50%);
+
+
+
+}
+.button{
+width:175px;
+height:175px;
+background: url(../img/group1.png) no-repeat; background-size: 350px 175px;
+border-radius:100%;
+font-size: 20px;
+transition: all 700ms ease;
+}
+
+.button-text{
+	position:absolute;
+	top:80%;
+	left:60%;
+	
+	transform: translate(-50%,-50%);
+	font-family:arial, sans-serif;
+	background: #ffffff;
+	width: 90px;
+}
+
+
+
+.button:hover{
+	background-position: -175px 0;
+	transform: rotate(90deg);
+}
+
+.button:active {
+	transform: rotate(180deg);
+}
