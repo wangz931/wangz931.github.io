@@ -41,8 +41,9 @@ transition: all 700ms ease;
 	left:60%;
 	
 	transform: translate(-50%,-50%);
-	font-family:arial, sans-serif;
-	background: #ffffff;
+	font-family: helvetica;
+
+	color: pink;
 	width: 90px;
 }
 
