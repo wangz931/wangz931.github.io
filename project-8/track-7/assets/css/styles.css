@@ -1,0 +1,58 @@
+
+
+body{
+font-family: "courier new:", monospace,serif;
+color: white;
+
+text-align:center;
+background-color: black;
+}
+
+.wrapper{
+	width:100%;
+	height:100%;
+}
+
+.column {
+	width:50%;
+	display: inline-block;
+	height:100%;
+	
+	padding:30px;
+}
+
+.content{
+	background:black;
+	
+}
+
+
+
+
+.option{
+	border:1px solid white;
+	padding:10px 20px;
+	display:inline-block;
+	font-size:15px;
+	margin: 0 15px 15px 0;
+	cursor:pointer;
+}
+
+.option:hover, .option.active {
+	background:#000;
+	color:#fff;
+}
+.main{
+	font-family: "courier new:", monospace,serif;
+	font-size: 15pt;
+	color: white;
+	text-align: center;
+	margin-top: 300px;
+}
+.content.ring{ background: url('../25carat.png'); }
+.content.gems{ background: url('../gems.png'); }
+.content.ruby{ background: url('../ruby.png'); }
+
+
+
+
