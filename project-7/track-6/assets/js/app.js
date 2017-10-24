@@ -7,18 +7,18 @@ $('.nav-item').click(function() {
     $('.nav-item').removeClass('active');
   $('.about-text').addClass('hide');
 
-    $(this).addClass('active');
-
-  if (button_name == 'beyonce') {
-    $('.lightbox').removeClass('hide');
-    $('audio')[0].play();
-  } else if (button_name == 'about') {
-    $('.about-text').removeClass('hide');
-  }
+    $(this).addClass('active'); 
 });
 
 $('.close-button').click(function() {
-  $('.lightbox').addClass('hide');
-  $('audio')[0].pause();
+
+
   $('.nav-item').removeVlass('active');
+
+
+  if (button_name == 'ring') {
+  $('.ringpic').removeClass('hide');
+
+
 });
+
