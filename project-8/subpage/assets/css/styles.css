@@ -1,0 +1,30 @@
+body{
+	background: url("../img/elephant.jpg") no-repeat; 
+background-size:120%;   
+
+}
+
+
+
+.title{
+	font-family: "courier new:", monospace,serif;
+	font-size:20px;
+	text-align:center;
+	color:black;
+	font-weight:bold;
+
+}
+.intro{
+	font-family: "courier new:", monospace,serif;
+	text-align:center;
+	padding:130px;
+	font-size:18px;
+	text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap;
+   color:#ffffff;
+
+}
+.link{
+	border-radius:100%;
+}

@@ -1,4 +1,4 @@
-var cash = 38000000;
+var cash = 3800000000;
 $('.cash').html(cash);
 
 
@@ -26,9 +26,7 @@ function charge_card(amount,item){
     $('.closet-items'). append(item + ','); 
     
          
-  } else {
-    alert('not enough money.');
-  }
+  } 
 
 }
 
