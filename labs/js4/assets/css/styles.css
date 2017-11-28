@@ -1,0 +1,40 @@
+*{ box-sizing: border-box; }
+
+body{
+	margin:0;
+	padding:0;
+	font-size:0;
+}
+
+.button{
+font-size:20px;
+	border: 1px solid #000;
+	padding:10px 20px;
+	display:inline-block;
+	margin:0 20px 20px 0;
+	cursor:pointer;
+}
+	
+
+.button:hover{
+	background:black;
+	color: #fff;
+}
+
+.object{
+	width:280px;
+	margin:0 30px 30px 0;
+	display:inline-block;
+	font-size:50px;
+}
+
+
+.red{
+	color:#f00;
+}
+.green{
+	color:#0f0;
+}
+.blue{
+	color:#00f;
+}

@@ -1,0 +1,83 @@
+body {
+  background: url('../img/treasure.jpg') no-repeat 50% 50% fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.title{
+ font-family: monaco, Consolas, "Lucida Console", monospace;
+ font-variant: small-caps;
+ font-size: 60px;
+ color: #fff;
+ text-align: center;
+}
+
+.first{
+    width: 8%;
+	position: fixed;
+	left:580px;
+	top: 500px;
+}
+
+.first:hover{
+     background: white;
+	border-radius: 130px;
+
+}
+.second{
+	width: 22%;
+	position: fixed;
+	left:880px;
+	top: 300px;
+}
+.second:hover{
+    background: white;
+	border-radius: 130px;
+
+
+}
+.third{
+    width: 7%;
+	position: fixed;
+	left:780px;
+	top: 350px;
+
+}
+
+.third:hover{
+    background: white;
+	border-radius: 130px;
+}
+
+.fourth{
+    width: 8%;
+	position: fixed;
+	left:880px;
+	top: 500px;
+
+}
+
+.fourth:hover{
+    background: white;
+	border-radius: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
