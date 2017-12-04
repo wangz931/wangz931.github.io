@@ -1,65 +1,276 @@
 body{
-   background-color: black;
+   background-color:black;
    color: white;
   text-align:center;
    font-family: "courier new:", monospace,serif;
 
 }
 .stay{
-	position:fixed;
-	top:0px;
-     margin:0 20px 20px 0;
-     padding:20px;
-	color: white;
-   font-family: "courier new:", monospace,serif;
-   text-align:left;
-   font-size: 25px;
-   font-style:oblique;
+position:fixed;
+top:0px;
+margin:0 20px 20px 0;
+padding:20px;
+color: white;
+font-family: "courier new:", monospace,serif;
+text-align:left;
+font-size: 25px;
+font-style:oblique;
 }
 mark{
 
 	color:800000;
 }
 
-.choice{
-  font-size:10px;
-  border: 1px solid white;
-  padding:0 0;
-  display:block;
-  margin:20px 90px 270px 870px;
+.homepage{
+  position: relative;
+  top:0;
+  left:0;
+  
+}
+
+.entrance1{
+  position:relative;
+  top:0;
+  left:0;
+}
+.entrance2{
+  position:absolute;
+  top:365px;
+  left:422px;
+  width:16%;
+  border:1px;
   cursor:pointer;
 }
-.choice hover{
-  background: black;
-  color: #fff;
+.entrance2 hover{
+  background-image:url("keys.png");
+  border: 1px solid white;
+  color:white;
 }
 
-.img1{
 
-  height:300px;
-	width:150px;
-	margin:80px 60px auto 220px;
-  display:inline-block;
+.secondpage{
+  position: relative;
+  top:0;
+  left:0;
+  background-color:black;
+  width:100%;
+}
+
+.big1{
+  position:relative;
+  top:80%;
+  left:-24%;
+  width:35%;
+  cursor:pointer;
+}
+
+.big2{
+  position:relative;
+  top:20%;
+  left:24%;
+  width:35%;
+  cursor:pointer;
+}
+.big1 hover{
+  background:transparent;
+}
+
+
+.left{
+  position:absolute;
 
 }
 
-.img2{
-
-height:300px;
-	width:150px;
-	margin:80px 60px auto 220px;
-  display:inline-block;
-
+.right{
+  position:absolute;
 }
 
- .img3{
- 	height:300px;
-   width:150px;
-  margin:80px 60px auto 220px;
-  display:inline-block;
 
- }
- 
+
+
+.story figure img{
+  position:absolute;
+  left:0px;
+   width:35%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  
+}
+
+.story figure:hover img{  
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor:pointer;
+}
+.jerry{
+  cursor:pointer;
+
+}
+.show{
+  color:white;
+  font-family: "courier new:", monospace,serif;
+  margin:180px 0px 5px 0px;
+  display:absolute;
+  overflow:hidden;
+  line-height:45px;
+  letter-spacing: .15em;
+  animation: typing 2.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+
+
+}
+@keyframes typing {
+  from { width:60% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to {border-color: trasnparent }
+  50% { border-color: orange }
+}
+
+.bossy figure img{
+  position:absolute;
+  right:0px;
+
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  
+}
+.bossy figure:hover img{  
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor:pointer;
+}
+
+.show2{
+  margin: 300px 15px 0 150px;
+  right:0px;
+  top:70%;
+  display:absolute;
+  overflow:hidden;
+  line-height:45px;
+  letter-spacing: .15em;
+  animation: typing 2.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+
+}
+@keyframes typing {
+  from { width:60% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to {border-color: trasnparent }
+  50% { border-color: orange }
+}
+
+.spot figure img{
+  position:absolute;
+  left:0px;
+   width:15%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  
+}
+
+.spot figure:hover img{  
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor:pointer;
+}
+
+.rachel figure img{
+   margin:0px 0px 0px 1100px;
+   width:22%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  
+}
+
+.rachel figure:hover img{  
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor:pointer;
+}
+
+
+
+.show4{
+  margin: 100px 15px 0 150px;
+  right:0px;
+  top:70%;
+  display:absolute;
+  overflow:hidden;
+  line-height:45px;
+  letter-spacing: .15em;
+  animation: typing 2.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+
+}
+@keyframes typing {
+  from { width:60% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to {border-color: trasnparent }
+  50% { border-color: orange }
+}
+
+.car figure img{
+   position:relative;
+   width:22%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  
+}
+
+.car figure:hover img{  
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor:pointer;
+}
+
+.show5{
+  margin: 100px 15px 0 150px;
+  right:0px;
+  top:70%;
+  display:absolute;
+  overflow:hidden;
+  line-height:45px;
+  letter-spacing: .15em;
+  animation: typing 2.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+
+}
+@keyframes typing {
+  from { width:60% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to {border-color: trasnparent }
+  50% { border-color: orange }
+}
+
+
+
+
+
+
+
+
  .main{
   border: 1px solid white;
   padding:1px 5px;
@@ -98,35 +309,17 @@ height:300px;
 
 
 
-.img4{
-	margin:auto;
- 	width:1px;
- 	height:5px;
- 	padding:20px;
- 	background-size: 80px 60px;
-    background-repeat: no-repeat;
-    margin-right: 680px;
 
 
-    background-position: right 30px center;
-}
-
-
-.arthur{
-text-align:left;
-
-}
-.img5{
-
-margin:auto;
-padding:10px;	
-}
-
-
+.hide{display:none;}
 .hide1{display:none;}
 .hide2{display:none;}
 .hide3{display:none;}
 .hide4{display:none;}
+.hide5{display:none;}
+.hide6{display:none;}
+.hide7{display:none;}
+
 
 
 
@@ -156,7 +349,7 @@ padding:10px;
   width:60%;
 }
 
-.choice2{
+.choice1{
   border: 1px solid white;
   padding:1px 5px;
   display:block;
@@ -165,7 +358,22 @@ padding:10px;
   top: 90%;
   left: 70%;
 }
-.choice2b hover{
+.choice1 hover{
+  background: black;
+  color: #fff;
+}
+
+
+.choice2{
+  border: 1px solid white;
+  padding:1px 5px;
+  display:block;
+  cursor:pointer;
+  position:absolute;
+  top: 100%;
+  left: 70%;
+}
+.choice2 hover{
   background: black;
   color: #fff;
 }
