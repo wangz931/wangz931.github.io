@@ -25,8 +25,7 @@ body {
 }
 
 .first:hover{
-     background: white;
-	border-radius: 130px;
+     
 
 }
 .second{
@@ -36,9 +35,7 @@ body {
 	top: 500px;
 }
 .second:hover{
-    background: white;
-	border-radius: 130px;
-
+    
 
 }
 .third{
@@ -50,8 +47,7 @@ body {
 }
 
 .third:hover{
-    background: white;
-	border-radius: 130px;
+    
 }
 
 .fourth{
@@ -63,8 +59,7 @@ body {
 }
 
 .fourth:hover{
-    background: white;
-	border-radius: 130px;
+    
 }
 
 

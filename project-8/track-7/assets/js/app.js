@@ -1,40 +1,26 @@
-var cash = 3800000000;
-$('.cash').html(cash);
+$('.one').click(function() {
+    var button_name = $(this).data('button');  
+    if (button_name == 'ok') {
+      $('.lightbox').removeClass('hide');
+      $('.outerspace').addClass('hide');
+  }
+
+  });
 
 
-$(".item").click(function() {
-  var item = $(this).data('item');
-  var amount =$(this). data('amount');
- 
+$('.hide').click(function() {
+    var button_name = $(this).data('button');  
+    if (button_name == 'hello') {
+      $('.lightbox').removeClass('hide1');
+      $('.one').addClass('hide1');
+  }
 
- charge_card(amount, item);
-  
+  });
+$('.hide1').click(function() {
+    var button_name = $(this).data('button');  
+    if (button_name == 'ok2') {
+      $('.lightbox').removeClass('hide2');
+      $('.one').addClass('hide2');
+  }
 
-  
-
-
-
-
-});
-
-function charge_card(amount,item){
-  //only going to work if we have the money 
-  
-  if (cash >= amount){
-    cash = cash - amount;
-    update_wallet();
-    $('.closet-items'). append(item + ','); 
-    
-         
-  } 
-
-}
-
-function update_wallet(){
-  $('.cash').html(cash);
-}
-
-
-
-
-
+  });
