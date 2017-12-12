@@ -1,86 +1,553 @@
-
-
 body{
-font-family: "courier new:", monospace,serif;
+	background-color:black;
+}
+
+
+
+.stay{
+position:absolute;
+
+margin:0px 0px 20px 1220px;
+
 color: white;
-
-text-align:center;
-background-color: black;
+font-family: "courier new:", monospace,serif;
+text-align:right;
+font-size: 20px;
+font-style:oblique;
 }
 
 
-.column {
-	width:50%;
-	display: inline-block;
-	height:100%;
-	
-	padding:30px;
+mark{
+
+	color:800000;
+}
+.container {
+  position: relative;
+  width: 45%;
 }
 
-.content{
-	background:black;
-	
+.main {
+  display: block;
+  width: 40%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30opx;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+ .second{
+
+position: relative;
+ width: 45%;
+ }
+
+.intro {
+  display: block;
+  margin:-80px 0px 10px 0px;
+  width: 120%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 90%;
+  transition: .5s ease;
+}
+
+.second:hover .overlay1 {
+  width: 100%;
+  left: 0;
+}
+
+.text1 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.third{
+position: relative;
+ width: 40%;
+}
+
+.next{
+display: block;
+   margin:-220px 0px 0px 260px;
+   width:70%;
+  height: auto;
+
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 0;
+  height: 86%;
+  transition: .5s ease;
+}
+
+.third:hover .overlay2 {
+    width: 65%;
+  left: 65%;
+}
+
+
+.text2 {
+  color: black;
+  text-align:center;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 
 
 
-.option{
-	border:1px solid white;
-	padding:10px 20px;
-	display:inline-block;
-	font-size:15px;
-	margin: 0 15px 15px 0;
-	cursor:pointer;
+.fourth {
+  position: relative;
+  width: 45%;
 }
 
-.option:hover, .option.active {
-	background:#000;
-	color:#fff;
-}
-.main{
-	font-family: "courier new:", monospace,serif;
-	font-size: 15pt;
-	color: white;
-	text-align: center;
-	margin-top: 300px;
+.gem {
+  display: block;
+  margin:-320px 0px 0px 540px;
+  width: 40%;
+  height: auto;
 }
 
-.back{
-	font-size:20px;
-	margin:150px 20px 20px 150px;
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
 }
-.back hover{
-	border-radius:50%;
-	color:white;
+
+.fourth:hover .overlay3 {
+  opacity: 1;
+}
+
+.text3 {
+  color: black;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+.fifth {
+  position: relative;
+  width: 15%;
+}
+
+.ruby {
+  display: block;
+  margin:-520px 0px 0px 840px;
+  
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 0;
+  height: 86%;
+  transition: .5s ease;
+}
+
+.fifth:hover .overlay4 {
+  width: 65%;
+  left: 0;
+}
+
+.text4 {
+  color: black;
+  text-align:center;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.sixth {
+  position: relative;
+  width: 15%;
+}
+
+.spot {
+  display: block;
+  margin: 120px 0px 0px 140px;
+  width: 300%;
+  height: auto;
+}
+
+.overlay5 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 0;
+  height: 86%;
+  transition: .5s ease;
+}
+
+.sixth:hover .overlay5 {
+  width: 65%;
+  left: 0;
+}
+
+.text5 {
+  color: black;
+  text-align:center;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+.seventh {
+  position: relative;
+  width: 35%;
+}
+
+.home {
+  display: block;
+  margin: -40px 0px 0px 1040px;
+  width: 40%;
+  height: auto;
+}
+
+.overlay6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.seventh:hover .overlay6 {
+  width: 65%;
+  left: 970px;
+}
+
+.text6 {
+  color: black;
+  text-align:center;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+.eighth {
+  position: relative;
+  width: 45%;
+}
+
+.mad {
+  display: block;
+  
+  width: 150%;
+  height: auto;
+}
+
+.overlay7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.eighth:hover .overlay7 {
+  width: 65%;
+  left: 370px;
+}
+
+.text7 {
+  color: white;
+  text-align:center;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.ninth {
+  position: relative;
+  width: 45%;
+}
+
+.send {
+  display: block;
+ margin:170px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+}
+
+.overlay8 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 160%;
+  transition: .5s ease;
+}
+
+.ninth:hover .overlay8 {
+  width: 55%;
+  left: 600px;
+}
+
+.text8 {
+  color: white;
+  text-align:center;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+.ten {
+  position: relative;
+  width: 45%;
+}
+
+.end {
+  display: block;
+ margin: -700px 0px 0px 1000px;
+  width: 50%;
+  height: auto;
+}
+
+.overlay9 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.ten:hover .overlay9 {
+  width: 65%;
+  left: 900px;
+}
+
+.text9 {
+  color: white;
+  text-align:center;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+.eleven {
+  position: relative;
+  width: 45%;
+}
+
+.bad {
+  display: block;
+   margin:40px 0px 0px 90px;
+  width: 190%;
+  height: auto;
+}
+
+.overlay10 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.eleven:hover .overlay10 {
+  width: 50%;
+  left: 50%;
+}
+
+.text10 {
+  color: white;
+  text-align:center;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.twelve {
+  position: relative;
+  width: 45%;
+}
+
+.final {
+  display: block;
+   margin:-200px 0px 0px 790px;
+  width: 110%;
+  height: auto;
+  background-size:100%;
+}
+
+
+.overlay11 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.twelve:hover .overlay11 {
+  width: 50%;
+  left: 80%;
+}
+
+.text11 {
+  color: white;
+  text-align:center;
+  font-family: "courier new:", monospace,serif;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 
 
 
 
-.close-button{
-	position:absolute;
-	top:-5px;
-	right:30px;
-	font-size:100px;
-	font-family:Helvetica, Arial, sans-serif;
-	cursor:pointer;
-}
 
-.hide{
-	display: none;
-}
-.hide1{
-	display:none;
-}
-.hide2{
-	display:none;
-}
-.hide3{
-	display:none;
-}
 
-.hide4{
-	display:none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
