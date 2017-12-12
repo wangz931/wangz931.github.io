@@ -425,8 +425,9 @@ transform:translate(-50%,-50%);
     border-radius: 50%;
     display:inline-block;
     animation:myfirst 5s;
-    -moz-animation:myfirst 5s infinite; /* Firefox */
+    -moz-animation:myfirst 5s infinite; 
     -webkit-animation:myfirst 5s infinite;
+    font-family: "courier new:", monospace,serif;
    
 }
 

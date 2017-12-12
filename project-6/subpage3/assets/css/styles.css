@@ -121,7 +121,7 @@ transform:translate(-50%,-50%);
 	display:inline-block;
 	border-radius:50%;
     animation:myfirst 0.5s;
-    -moz-animation:myfirst 0.5s infinite; /* Firefox */
+    -moz-animation:myfirst 0.5s infinite; 
     -webkit-animation:myfirst 0.5s infinite;
     
 	
