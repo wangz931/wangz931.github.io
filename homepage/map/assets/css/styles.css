@@ -25,7 +25,9 @@ body {
 }
 
 .first:hover{
-     
+	background-color: yellow;
+    
+     border-radius: 100%;
 
 }
 .second{
@@ -35,8 +37,8 @@ body {
 	top: 500px;
 }
 .second:hover{
-    
-
+	background-color: yellow;
+    border-radius: 50%;
 }
 .third{
     width: 7%;
@@ -47,6 +49,8 @@ body {
 }
 
 .third:hover{
+	background-color: yellow;
+	    border-radius: 50%;
     
 }
 
@@ -59,9 +63,22 @@ body {
 }
 
 .fourth:hover{
+	background-color: yellow;
+	    border-radius: 50%;
+    
     
 }
 
+
+.f{
+    }
+
+.f:hover{
+	background-color: yellow;
+	    border-radius: 50%;
+    
+    
+}
 
 .swear{
 	font-family: monaco, Consolas, "Lucida Console", monospace;

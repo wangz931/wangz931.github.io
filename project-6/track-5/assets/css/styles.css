@@ -3,7 +3,21 @@
 body{
     background-color:yellow;
 }
-
+.stay{
+position:fixed;
+top:0px;
+margin:0 20px 20px 0;
+padding:20px;
+color: white;
+font-family: "courier new:", monospace,serif;
+text-align:left;
+font-size: 25px;
+font-style:oblique;
+}
+mark{
+    background-color: black;
+    color:yellow;
+}
 .hide1{
 	display:none;
 }

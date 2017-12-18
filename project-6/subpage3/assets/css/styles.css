@@ -2,6 +2,8 @@
 
 body{
     background-color:yellow;
+    font-family: "courier new:", monospace,serif;
+
 }
 
 .hide1{
@@ -9,6 +11,8 @@ body{
 }
 
 }
+
+
 
 
 
@@ -308,6 +312,7 @@ transform:translate(-50%,-50%);
     animation:myfirst 1s;
     -moz-animation:myfirst 1s infinite;
     -webkit-animation:myfirst 1s infinite;
+    font-family: "courier new:", monospace,serif;
    
 }
 

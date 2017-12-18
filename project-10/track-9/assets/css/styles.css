@@ -3,10 +3,21 @@ body{
   background-color: black;
 
 }
-.wrapper{
-  width:100%;
-  background-image:url("../img/tucker.jpg");
-  background-size: 100%;
+
+.stay{
+position:fixed;
+top:0px;
+margin:0 20px 20px 900px;
+padding:20px;
+color: white;
+font-family: "courier new:", monospace,serif;
+text-align:left;
+font-size: 25px;
+font-style:oblique;
+}
+mark{
+
+  color:800000;
 }
 
 .hide1{

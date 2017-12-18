@@ -38,14 +38,14 @@ transform:translate(-50%,-50%);
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:yellow;}
     50%  {background:black;}
     100%   {background:yellow;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:yellow;}
     50%  {background:black;}
@@ -65,14 +65,14 @@ transform:translate(-50%,-50%);
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
@@ -94,14 +94,14 @@ transform:translate(-50%,-50%);
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:yellow;}
     50%  {background:black;}
     100%   {background:yellow;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:yellow;}
     50%  {background:black;}
@@ -121,19 +121,19 @@ transform:translate(-50%,-50%);
 	display:inline-block;
 	border-radius:50%;
     animation:myfirst 0.5s;
-    -moz-animation:myfirst 0.5s infinite; /* Firefox */
+    -moz-animation:myfirst 0.5s infinite; 
     -webkit-animation:myfirst 0.5s infinite;
     
 	
 }
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
@@ -153,19 +153,19 @@ transform:translate(-50%,-50%);
     border-radius: 50%;
     display:inline-block;
     animation:myfirst 1s;
-    -moz-animation:myfirst 1s infinite; /* Firefox */
+    -moz-animation:myfirst 1s infinite; 
     -webkit-animation:myfirst 1s infinite;
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
@@ -180,19 +180,19 @@ transform:translate(-50%,-50%);
     border-radius: 50%;
     display:inline-block;
     animation:myfirst 3s;
-    -moz-animation:myfirst 3s infinite; /* Firefox */
+    -moz-animation:myfirst 3s infinite; 
     -webkit-animation:myfirst 3s infinite;
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes
     {
     0%   {background:yellow;}
     50%  {background:black;}
     100%   {background:yellow;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:yellow;}
     50%  {background:black;}
@@ -213,20 +213,20 @@ transform:translate(-50%,-50%);
     border-radius: 50%;
     display:inline-block;
     animation:myfirst 5s;
-    -moz-animation:myfirst 5s infinite; /* Firefox */
+    -moz-animation:myfirst 5s infinite; 
     -webkit-animation:myfirst 5s infinite;
     cursor:pointer;
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
@@ -249,19 +249,19 @@ transform:translate(-50%,-50%);
     display:inline-block;
     background-color:black;
     animation:myfirst 3s;
-    -moz-animation:myfirst 3s infinite; /* Firefox */
+    -moz-animation:myfirst 3s infinite; 
     -webkit-animation:myfirst 3s infinite;
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
@@ -276,19 +276,19 @@ transform:translate(-50%,-50%);
     border-radius: 50%;
     display:inline-block;
     animation:myfirst 1s;
-    -moz-animation:myfirst 1s infinite; /* Firefox */
+    -moz-animation:myfirst 1s infinite; 
     -webkit-animation:myfirst 1s infinite;
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:yellow;}
     50%  {background:black;}
     100%   {background:yellow;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:yellow;}
     50%  {background:black;}
@@ -310,14 +310,14 @@ transform:translate(-50%,-50%);
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
@@ -341,14 +341,14 @@ transform:translate(-50%,-50%);
     
     
 }
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
@@ -376,14 +376,14 @@ transform:translate(-50%,-50%);
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}
@@ -403,14 +403,14 @@ transform:translate(-50%,-50%);
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
     0%   {background:yellow;}
     50%  {background:black;}
     100%   {background:yellow;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes
     {
     0%   {background:yellow;}
     50%  {background:black;}
@@ -432,14 +432,14 @@ transform:translate(-50%,-50%);
    
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
      0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
      0%   {background:black;}
     50%  {background:yellow;}
@@ -458,19 +458,19 @@ transform:translate(-50%,-50%);
     display:inline-block;
     border-radius:50%;
     animation:myfirst 2s;
-    -moz-animation:myfirst 2s infinite; /* Firefox */
+    -moz-animation:myfirst 2s infinite; 
     -webkit-animation:myfirst 2s infinite;
     
     
 }
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes 
     {
      0%   {background:black;}
     50%  {background:yellow;}
     100%   {background:black;}
     }
 
-        @-webkit-keyframes myfirst /* Safari and Chrome */
+        @-webkit-keyframes 
     {
     0%   {background:black;}
     50%  {background:yellow;}

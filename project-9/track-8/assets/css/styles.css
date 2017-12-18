@@ -1,18 +1,63 @@
 
 body{
   
-  
-  color:black;
+  background-color: black;
+  color:white;
+  font-family: "courier new:", monospace,serif;
 
 }
 
-.lightbox{
-  background-image:url("../img/elephant.jpg");
-   background-size:100%;
+.stay{
+position:fixed;
+top:0px;
+margin:0 20px 20px 0;
+padding:20px;
+color: white;
+font-family: "courier new:", monospace,serif;
+text-align:left;
+font-size: 25px;
+font-style:oblique;
+}
+mark{
 
+  color:800000;
+}
+.stay1{
+position:fixed;
+top:0px;
+margin:0 20px 20px 0px;
+padding:20px;
+color: white;
+font-family: "courier new:", monospace,serif;
+text-align:left;
+font-size: 25px;
+font-style:oblique;
 }
 
 
+.stay2{
+position:fixed;
+top:0px;
+margin:0 20px 20px 0px;
+padding:20px;
+color: white;
+font-family: "courier new:", monospace,serif;
+text-align:left;
+font-size: 25px;
+font-style:oblique;
+}
+
+.stay3{
+position:fixed;
+top:0px;
+margin:0 20px 20px 0px;
+padding:20px;
+color: white;
+font-family: "courier new:", monospace,serif;
+text-align:left;
+font-size: 25px;
+font-style:oblique;
+}
 .hide1{
   display:none;
 }
@@ -44,9 +89,9 @@ body{
   display:none;
 }
 .nav-bar1{
-  font-size:80px;
+  font-size:40px;
   text-orientation:horizontal;
-  margin:0 0 0 100px;
+  margin:0 0 0 0px;
   cursor:context-menu;
 }
 .text{
@@ -55,8 +100,8 @@ body{
   position: absolute;
   margin:280px 0px 0px 520px;
   font-family: "courier new:", monospace,serif;
-  background-color:#ab9563; 
-  color: #607661;
+  background-color:white; 
+  color: black;
   padding: 10px 10px;
   box-sizing: border-box;
   border:4px;
@@ -76,9 +121,9 @@ body{
   margin:240px 0px 0px 100px;
 }
 .text1{
-  background-color: #607661;
+  background-color: white;
   font-size:18px;
-  color:#ab9563;
+  color:black;
   text-align:center;
   position: absolute;
   margin:400px 0px 0px 480px;
@@ -92,9 +137,9 @@ body{
 }
   
 .text2{
-  background-color: #607661;
+  background-color: white;
   font-size:18px;
-  color:#ab9563;
+  color:black;
   text-align:center;
   position: absolute;
   margin:300px 0px 0px 400px;
@@ -107,9 +152,9 @@ body{
  
 }
 .text3{
-  background-color: #607661;
+  background-color: white;
   font-size:18px;
-  color:#ab9563;
+  color:black;
   text-align:center;
   position: absolute;
   margin:200px 0px 0px 300px;
@@ -123,9 +168,9 @@ body{
 }
   
 .text4{
-  background-color: #607661;
+  background-color: white;
   font-size:18px;
-  color:#ab9563;
+  color:black;
   text-align:center;
   position: absolute;
   margin:200px 0px 0px 400px;
@@ -140,36 +185,36 @@ body{
 
 
 .first{
-  margin: -800px 0px 0px 300px;
-  color:black;
-  font-size:35px;
+  margin: -300px 0 0px 100px;
+  color:white;
+  font-size:12px;
   font-family: "courier new:", monospace,serif;
   animation: blink 5s;
   animation-iteration-count: infinite;
 
 }
 .second{
-  margin: -800px 0px 0px 300px;
-  color:black;
-  font-size:35px;
+  margin: -300px 0 0px 100px;
+  color:white;
+  font-size:11px;
   font-family: "courier new:", monospace,serif;
   animation: blink 5s;
   animation-iteration-count: infinite;
 
 }
 .third{
-  margin: -1200px 0px 0px 300px;
-  color:black;
-  font-size:35px;
+  margin: -300px 0 0px 100px;
+  color:white;
+  font-size:11px;
   font-family: "courier new:", monospace,serif;
   animation: blink 5s;
   animation-iteration-count: infinite;
 
 }
 .fourth{
-  margin: -1200px 0px 0px 300px;
-  color:black;
-  font-size:35px;
+   margin: -300px 0 0px 100px;
+  color:white;
+  font-size:12px;
   font-family: "courier new:", monospace,serif;
   animation: blink 5s;
   animation-iteration-count: infinite;
@@ -263,21 +308,24 @@ display: inline-block;
 }
 
 .nav-bar2{
-  font-size:280px;
+  font-size:80px;
   writing-mode: vertical-rl;
+  cursor:context-menu;
 }
 
 .nav-bar3{
-  font-size:230px;
+  font-size:90px;
+  cursor:context-menu;
   
    margin: -10px 0px 0px 0px;
 }
 
 
 .nav-bar4{
-  font-size:280px;
+cursor:context-menu;
+  font-size: 80px;
   writing-mode: vertical-rl;
-  margin:-900px 0px 0px 900px;
+  margin:-290px 0px 0px 260px;
 }
 
 
@@ -285,6 +333,7 @@ display: inline-block;
   position:relative;
   top:0;
   left:0;
+
 }
 
 
@@ -293,6 +342,7 @@ display: inline-block;
   width:100%;
 }
 .two{
+  display: hide;
   position:absolute;
   width:20%;
   margin:-500px 0px 0px 550px;
