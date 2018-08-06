@@ -1,0 +1,232 @@
+
+body{
+	display: table-cell;
+	cursor: pointer;
+
+
+}
+
+img:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.9s; 
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#i {
+  background:black;
+  width: 4px;
+  height: 100px;
+  position: fixed;
+  margin-left:800px;
+  top: 50px;
+  z-index: 2;
+}
+
+
+
+
+.nav{
+    cursor: pointer;
+    transform: rotate(270deg);
+	font-family:rockwell;
+	font-size: 18px;
+	margin-top: 140px;
+	word-spacing: 30px;
+	position: fixed;
+}
+
+span:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1.5px;
+  top: 45%;
+  margin-top: -0.5px;
+  background: black;
+}
+
+span:before {
+  left: -2.5px;
+}
+span:after {
+  right: 2.5px;
+  background: black;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:before {
+  background: black;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+#ii {
+  background:black;
+  width: 4px;
+  height: 100px;
+  position: fixed;
+  margin-left:800px;
+  top: 50px;
+  z-index: 2;
+}
+
+
+
+
+.navi{
+    cursor: pointer;
+    transform: rotate(270deg);
+	font-family:rockwell;
+	font-size: 18px;
+	margin-top: 270px;
+	margin-left: 28px;
+	position: fixed;
+}
+
+span:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1.5px;
+  top: 45%;
+  margin-top: -0.5px;
+  background: black;
+}
+
+span:before {
+  left: -2.5px;
+}
+span:after {
+  right: 2.5px;
+  background: black;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:before {
+  background: black;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+.one{
+	width:28%;
+	position: relative;
+	margin-left:260px;
+	margin-top: 70px;
+	top:10.4%;
+	display: block;
+
+}
+
+.two{
+	width:25%;
+	position: relative;
+	margin-left:950px;
+    margin-top: -600px;
+	display: block;
+}
+
+.three{
+	width: 30%;
+	position: relative;
+	left:14%;
+	top:83%;
+	display: block;
+}
+
+.threei{
+	width: 25%;
+	position: absolute;
+	right:14%;
+	top:88%;
+	display: block;
+}
+
+.four{
+	width: 26.5%;
+    position: relative;
+	top:130%;
+	left: 15%;
+	display: block;
+}
+
+.five{
+	width: 29%;
+	position: relative;
+	margin-left:950px;
+	margin-top:-620px;
+	display: block;
+}
+
+.six{
+	width: 27%;
+	position: relative;
+	right:15%;
+	top:99%;
+	display: block;
+}
+
+
+
+.seven{
+	width: 27%;
+	position: relative;
+	margin-left:240px;
+	margin-top: 130px;
+    display: block;
+}
+
+.eight{
+	width: 26.2%;
+	position: relative;
+	margin-left:950px;
+	margin-top: -630px;
+}
+
+.nine{
+	width: 28%;
+	position: ;
+	margin-left:234px;
+    margin-top: 100px;
+    display: block;
+}
+
+.ten{
+	width: 28%;
+	position: relative;
+	margin-top:-300px;
+	margin-left:947px;
+}

@@ -1,0 +1,12 @@
+body{
+	display: table-cell;
+}
+
+img{
+	width: 50%;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto; 
+    padding: 70px;
+}
+

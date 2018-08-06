@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<style type="text/css">
+
+
+html,body{
+font-family: Rockwell; 
+font-size: 85px;
+position: absolute;
+left:15%;
+top:20%;
+color: #ff0033;
+width: 100%;
+height: 100%;
+}	
+
+a{
+  color:inherit;
+  text-decoration: none;
+ }
+
+div{
+	display: inline;
+}
+.nav{
+	position: absolute;
+	top:500px;
+	left:0;
+	font-size: 30px;
+	color: black;
+	display: table-cell;
+	vertical-align: middle;
+    text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+span {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+span:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1.5px;
+  top: 45%;
+  margin-top: -0.5px;
+  background: black;
+}
+
+span:before {
+  left: -2.5px;
+}
+span:after {
+  right: 2.5px;
+  background: black;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:before {
+  background: black;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+.hide{
+	display: none;
+}
+.intro{
+	position: absolute;
+	text-align: center;
+  left:-260px;
+
+}
+
+
+.h1, .h2{
+	position: absolute;
+	right: 60%;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="intro">
+Hi. I'm Abby :) </br>
+A communication designer</br> 
+Based in New York City
+</div>
+
+
+
+<div class="nav">
+	  <ul>
+	  	<a href="./E/editorial.html"><li><span>Editorial</span></li></a>
+        <a href="../P/photography.html"><li><span>Photograhy</span></li></a>
+        <li><span>Resume</span></li>
+      </ul>
+     
+
+</div>
+
+<script type="text/javascript">
+
+
+
+//$('.h1').hover(
+	function() {
+		$('.nav').removeClass('hide');
+	});
+
+
+
+//$('.name').hover(
+	function() {
+		$('.resume').removeClass('hide');
+	});
+
+</script>
+
+
+</body>
+</html>
